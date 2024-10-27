@@ -619,7 +619,7 @@ const tavernUrlV6 = new URL(
 
 const tavernUrl = new URL(
     (cliArguments.ssl ? 'https://' : 'http://') +
-    (listen ? '0.0.0.0' : '127.0.0.1') +
+    (listen ? '0.0.0.0' : '100.87.70.17') +
     (':' + server_port),
 );
 
