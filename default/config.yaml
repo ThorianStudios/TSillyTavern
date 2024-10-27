@@ -13,7 +13,7 @@ dnsPreferIPv6: false
 # The hostname that autorun opens.
 # - Use "auto" to let the server decide
 # - Use options like 'localhost', 'st.example.com'
-autorunHostname: "auto"
+autorunHostname: "100.87.70.17"
 # Server port
 port: 8000
 # Overrides the port for autorun in browser.
@@ -22,7 +22,7 @@ port: 8000
 autorunPortOverride: -1
 # -- SECURITY CONFIGURATION --
 # Toggle whitelist mode
-whitelistMode: true
+whitelistMode: false
 # Whitelist will also verify IP in X-Forwarded-For / X-Real-IP headers
 enableForwardedWhitelist: true
 # Whitelist of allowed IP addresses
