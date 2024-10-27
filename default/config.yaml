@@ -47,6 +47,8 @@ requestProxy:
   bypass:
     - localhost
     - 127.0.0.1
+    - 100.87.70.17
+    - 100.86.185.238
 # Enable multi-user mode
 enableUserAccounts: false
 # Enable discreet login mode: hides user list on the login screen
